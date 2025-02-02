@@ -1,0 +1,138 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.239rem;
+    font-family: "Inter", serif;
+    color: #2b283a;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#root {
+    height: 100vh;
+}
+
+/* Header styles */
+header {
+    background-color: #f55a5a;
+    height: 5.5rem;
+    margin-bottom: 6rem;
+}
+
+header,
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#headerLogoImg {
+    width: 24px;
+}
+
+#logoText {
+    font-family: "Inter", serif;
+    color: #fff;
+    line-height: 1.75rem;
+    font-weight: 500;
+    font-size: 1.446rem;
+}
+
+
+/* Entry Styles */
+.entryContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 3.6rem;
+}
+
+.imageContainer {
+    height: 16.8rem;
+    width: 12.5rem;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+.entryImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.entryDescription {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.9rem;
+}
+
+.locationData {
+    display: flex;
+    flex-direction: row;
+}
+
+.locationData > img {
+    /* this is the marker icon within entry */
+    width: .7rem;
+    height: .955rem;
+}
+
+.locationName {
+    width: 4rem;
+    height: 1rem;
+    font-size: 1.024rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: .4rem;
+}
+
+.mapsLink {
+    width: 10.6rem;
+    height: 1.3rem;
+    font-size: 1.024rem;
+    font-weight: 400;
+    text-decoration: underline;
+    color: #918e9b;
+    margin-left: 1.2rem;
+}
+
+.entryTitle {
+    height: 3rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.26rem;
+    color: #2b283a;
+    margin-top: .4rem;
+}
+
+.entryDate {
+    font-size: 1.024rem;
+    font-weight: 700;
+    margin-top: 1.2rem;
+}
+
+.entryText {
+    font-size: 1.024rem;
+    line-height: 1.536rem;
+    margin-top: .9rem;
+}

@@ -21,7 +21,7 @@ html {
 .pageContainer {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    margin: 4.5rem 4rem;
 }
 
 #root {
@@ -61,8 +61,6 @@ nav {
 .entryContainer {
     display: flex;
     flex-direction: row;
-    margin-left: 4rem;
-    margin-right: 4rem;
     margin-bottom: 3.6rem;
 }
 
@@ -98,7 +96,7 @@ nav {
 }
 
 .locationName {
-    width: 4rem;
+    /* width: 4rem; */
     height: 1rem;
     font-size: 1.024rem;
     font-weight: 400;
